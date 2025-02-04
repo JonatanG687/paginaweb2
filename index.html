@@ -7,6 +7,99 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+</body>
+</html>
+<body>
+    <header>
+        <div class="container">
+            <h1>Construcciones XYZ</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#reclamos">Reclamos de Seguros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Expertos en Roof, Siding, Reparaciones y Más</h2>
+            <p>Servicios de calidad para tu hogar o negocio. ¡Contáctanos hoy!</p>
+            <a href="#contacto" class="btn">Solicitar Presupuesto</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <i class="fas fa-home"></i>
+                    <h3>Roof</h3>
+                    <p>Instalación y reparación de techos de alta calidad.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-paint-roller"></i>
+                    <h3>Siding</h3>
+                    <p>Revestimientos exteriores duraderos y estéticos.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-tools"></i>
+                    <h3>Reparaciones de Roof</h3>
+                    <p>Soluciones rápidas y efectivas para daños en techos.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <h3>Reclamos de Seguros</h3>
+                    <p>Te ayudamos a gestionar reclamos con tu aseguradora.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-flooring"></i>
+                    <h3>Pisos</h3>
+                    <p>Instalación y reparación de pisos para cualquier espacio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reclamos" class="insurance-claims">
+        <div class="container">
+            <h2>Reclamos de Seguros</h2>
+            <p>¿Necesitas ayuda con un reclamo de seguro? Déjanos tus datos y te contactaremos.</p>
+            <form action="#" method="post">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <input type="tel" name="telefono" placeholder="Teléfono" required>
+                <textarea name="mensaje" placeholder="Describe tu situación" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¡Estamos aquí para ayudarte! Contáctanos para más información.</p>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle Principal #123, Ciudad, País</p>
+                <p><i class="fas fa-phone"></i> Teléfono: +1 234 567 890</p>
+                <p><i class="fas fa-envelope"></i> Email: info@construccionesxyz.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Construcciones XYZ. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <canvas id="spiralCanvas></canvas>
+        
     <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -108,97 +201,6 @@
         // Animación inicial
         animateParticles();
     </script>
-</body>
-</html>
-<body>
-    <header>
-        <div class="container">
-            <h1>Construcciones XYZ</h1>
-            <nav>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#reclamos">Reclamos de Seguros</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="inicio" class="hero">
-        <div class="container">
-            <h2>Expertos en Roof, Siding, Reparaciones y Más</h2>
-            <p>Servicios de calidad para tu hogar o negocio. ¡Contáctanos hoy!</p>
-            <a href="#contacto" class="btn">Solicitar Presupuesto</a>
-        </div>
-    </section>
-
-    <section id="servicios" class="services">
-        <div class="container">
-            <h2>Nuestros Servicios</h2>
-            <div class="service-grid">
-                <div class="service-item">
-                    <i class="fas fa-home"></i>
-                    <h3>Roof</h3>
-                    <p>Instalación y reparación de techos de alta calidad.</p>
-                </div>
-                <div class="service-item">
-                    <i class="fas fa-paint-roller"></i>
-                    <h3>Siding</h3>
-                    <p>Revestimientos exteriores duraderos y estéticos.</p>
-                </div>
-                <div class="service-item">
-                    <i class="fas fa-tools"></i>
-                    <h3>Reparaciones de Roof</h3>
-                    <p>Soluciones rápidas y efectivas para daños en techos.</p>
-                </div>
-                <div class="service-item">
-                    <i class="fas fa-file-invoice-dollar"></i>
-                    <h3>Reclamos de Seguros</h3>
-                    <p>Te ayudamos a gestionar reclamos con tu aseguradora.</p>
-                </div>
-                <div class="service-item">
-                    <i class="fas fa-flooring"></i>
-                    <h3>Pisos</h3>
-                    <p>Instalación y reparación de pisos para cualquier espacio.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="reclamos" class="insurance-claims">
-        <div class="container">
-            <h2>Reclamos de Seguros</h2>
-            <p>¿Necesitas ayuda con un reclamo de seguro? Déjanos tus datos y te contactaremos.</p>
-            <form action="#" method="post">
-                <input type="text" name="nombre" placeholder="Nombre" required>
-                <input type="email" name="email" placeholder="Correo Electrónico" required>
-                <input type="tel" name="telefono" placeholder="Teléfono" required>
-                <textarea name="mensaje" placeholder="Describe tu situación" required></textarea>
-                <button type="submit" class="btn">Enviar</button>
-            </form>
-        </div>
-    </section>
-
-    <section id="contacto" class="contact">
-        <div class="container">
-            <h2>Contacto</h2>
-            <p>¡Estamos aquí para ayudarte! Contáctanos para más información.</p>
-            <div class="contact-info">
-                <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle Principal #123, Ciudad, País</p>
-                <p><i class="fas fa-phone"></i> Teléfono: +1 234 567 890</p>
-                <p><i class="fas fa-envelope"></i> Email: info@construccionesxyz.com</p>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Construcciones XYZ. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
 
